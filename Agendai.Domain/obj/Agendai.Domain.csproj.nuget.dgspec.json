@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj": {}
+    "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj": {
+    "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj",
         "projectName": "Agendai.Domain",
-        "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj",
+        "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj",
         "packagesPath": "C:\\Users\\BMI 01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Domain\\obj\\",
+        "outputPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

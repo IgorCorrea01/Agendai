@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zji4tOGu20I=",
+  "dgSpecHash": "cLGbdBXPerg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Infrastructure\\Agendai.Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Infrastructure\\Agendai.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BMI 01\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\BMI 01\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

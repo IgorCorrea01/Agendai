@@ -2895,11 +2895,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\UnitTests\\UnitTests.csproj",
-      "projectName": "UnitTests",
-      "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\UnitTests\\Agenda.UnitTests.csproj",
+      "projectName": "Agenda.UnitTests",
+      "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\UnitTests\\Agenda.UnitTests.csproj",
       "packagesPath": "C:\\Users\\BMI 01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2920,11 +2920,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Application\\Agendai.Application.csproj": {
-              "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Application\\Agendai.Application.csproj"
+            "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Application\\Agendai.Application.csproj": {
+              "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Application\\Agendai.Application.csproj"
             },
-            "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj": {
-              "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj"
+            "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj": {
+              "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj"
             }
           }
         }

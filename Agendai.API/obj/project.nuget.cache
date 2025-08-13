@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPF4DIsK+no=",
+  "dgSpecHash": "rBtUtBvxEsU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai\\Agendai.API\\Agendai.API.csproj",
+  "projectFilePath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.API\\Agendai.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BMI 01\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
     "C:\\Users\\BMI 01\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.8\\microsoft.entityframeworkcore.9.0.8.nupkg.sha512",
