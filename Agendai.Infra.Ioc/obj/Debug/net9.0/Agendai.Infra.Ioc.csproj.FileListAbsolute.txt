@@ -1,0 +1,11 @@
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\bin\Debug\net9.0\Agendai.Infra.Ioc.deps.json
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\bin\Debug\net9.0\Agendai.Infra.Ioc.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\bin\Debug\net9.0\Agendai.Infra.Ioc.pdb
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\obj\Debug\net9.0\Agendai.Infra.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\obj\Debug\net9.0\Agendai.Infra.Ioc.AssemblyInfoInputs.cache
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\obj\Debug\net9.0\Agendai.Infra.Ioc.AssemblyInfo.cs
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\obj\Debug\net9.0\Agendai.Infra.Ioc.csproj.CoreCompileInputs.cache
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\obj\Debug\net9.0\Agendai.Infra.Ioc.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\obj\Debug\net9.0\refint\Agendai.Infra.Ioc.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\obj\Debug\net9.0\Agendai.Infra.Ioc.pdb
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Infra.Ioc\obj\Debug\net9.0\ref\Agendai.Infra.Ioc.dll

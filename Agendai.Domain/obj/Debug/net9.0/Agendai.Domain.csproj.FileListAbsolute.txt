@@ -1,0 +1,11 @@
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\bin\Debug\net9.0\Agendai.Domain.deps.json
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\bin\Debug\net9.0\Agendai.Domain.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\bin\Debug\net9.0\Agendai.Domain.pdb
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\obj\Debug\net9.0\Agendai.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\obj\Debug\net9.0\Agendai.Domain.AssemblyInfoInputs.cache
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\obj\Debug\net9.0\Agendai.Domain.AssemblyInfo.cs
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\obj\Debug\net9.0\Agendai.Domain.csproj.CoreCompileInputs.cache
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\obj\Debug\net9.0\Agendai.Domain.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\obj\Debug\net9.0\refint\Agendai.Domain.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\obj\Debug\net9.0\Agendai.Domain.pdb
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai\Agendai.Domain\obj\Debug\net9.0\ref\Agendai.Domain.dll
