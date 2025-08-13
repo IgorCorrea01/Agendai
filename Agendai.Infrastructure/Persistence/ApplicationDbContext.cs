@@ -24,10 +24,5 @@ namespace Agendai.Infrastructure.Persistence
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql("Server=localhost,1433;Database=MovieStarDb;User Id=sa;Password=StarDev!;TrustServerCertificate=True;");
-        }
     }
 }

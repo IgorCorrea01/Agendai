@@ -11,29 +11,17 @@ namespace Agendai.Infra.Ioc
     {
         public static IServiceCollection AddAgendaiInfra(this IServiceCollection services, IConfiguration configuration)
         {
-            // - Serviços do usuario
-            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-            services.AddScoped<IUsuarioService, UsuarioService>();
-
-            // - Serviços do filme
-            services.AddScoped<IEstabelecimentoRepository, EstabelecimentoRepository>();
-            services.AddScoped<IEstabelecimentoService, EstabelecimentoService>();
-
-            // - Serviços de serie
-            services.AddScoped<IServicoRepository, ServicoRepository>();
-            services.AddScoped<IServicoService, ServicoService>();
-
-            // - Serviços do gênero
-            services.AddScoped<IAgendamentoRepository, AgendamentoRepository>();
-            services.AddScoped<IAgendamentoService, AgendamentoService>();
-
-            // - Serviço de conexão com o banco de dados
+            // DbContext via DI (Npgsql)
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
+            // Repositories (implementações já existem)
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IEstabelecimentoRepository, EstabelecimentoRepository>();
+            services.AddScoped<IServicoRepository, ServicoRepository>();
+            services.AddScoped<IAgendamentoRepository, AgendamentoRepository>();
 
-            services.AddAutoMapper(typeof(MappingDTOs));
-
+            // Removi AutoMapper e Services por enquanto (não existem/estão incompletos)
             return services;
         }
     }
