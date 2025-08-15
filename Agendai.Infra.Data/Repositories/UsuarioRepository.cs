@@ -1,6 +1,6 @@
 ﻿using Agendai.Domain.Entities;
 using Agendai.Domain.Repositories;
-using Agendai.Infrastructure.Persistence;
+using Agendai.Infra.Data.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 namespace Agendai.Infra.Data.Repositories

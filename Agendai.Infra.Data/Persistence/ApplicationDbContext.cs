@@ -1,7 +1,7 @@
 ﻿using Agendai.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Agendai.Infrastructure.Persistence
+namespace Agendai.Infra.Data.Persistence
 {
     public class ApplicationDbContext : DbContext
     {

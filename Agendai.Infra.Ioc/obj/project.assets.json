@@ -729,8 +729,8 @@
     },
     "Agendai.Infra.Data/1.0.0": {
       "type": "project",
-      "path": "../Agendai.Infrastructure/Agendai.Infra.Data.csproj",
-      "msbuildProject": "../Agendai.Infrastructure/Agendai.Infra.Data.csproj"
+      "path": "../Agendai.Infra.Data/Agendai.Infra.Data.csproj",
+      "msbuildProject": "../Agendai.Infra.Data/Agendai.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -780,8 +780,8 @@
             "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj": {
               "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Domain\\Agendai.Domain.csproj"
             },
-            "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Infrastructure\\Agendai.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Infrastructure\\Agendai.Infra.Data.csproj"
+            "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Infra.Data\\Agendai.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\BMI 01\\Desktop\\Informações Gerais\\Treinos\\Agendai\\Agendai.Infra.Data\\Agendai.Infra.Data.csproj"
             }
           }
         }

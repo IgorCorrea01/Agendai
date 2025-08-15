@@ -9,10 +9,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Agendai.Application\Agendai.Application.csproj" />
+    <ProjectReference Include="..\Agendai.Infra.Ioc\Agendai.Infra.Ioc.csproj" />
   </ItemGroup>
 
 </Project>

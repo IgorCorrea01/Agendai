@@ -11,9 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\" />
+    <Folder Include="Contracts\Services\" />
     <Folder Include="DTOs\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Services\" />
     <Folder Include="Utils\" />
   </ItemGroup>
 

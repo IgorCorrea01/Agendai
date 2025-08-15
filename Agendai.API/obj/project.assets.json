@@ -809,8 +809,8 @@
     },
     "Agendai.Infra.Data/1.0.0": {
       "type": "project",
-      "path": "../Agendai.Infrastructure/Agendai.Infra.Data.csproj",
-      "msbuildProject": "../Agendai.Infrastructure/Agendai.Infra.Data.csproj"
+      "path": "../Agendai.Infra.Data/Agendai.Infra.Data.csproj",
+      "msbuildProject": "../Agendai.Infra.Data/Agendai.Infra.Data.csproj"
     },
     "Agendai.Infra.Ioc/1.0.0": {
       "type": "project",
@@ -823,7 +823,8 @@
       "Agendai.Application >= 1.0.0",
       "Agendai.Infra.Ioc >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.8",
-      "Microsoft.EntityFrameworkCore >= 9.0.8"
+      "Microsoft.EntityFrameworkCore >= 9.0.8",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4"
     ]
   },
   "packageFolders": {
@@ -890,6 +891,10 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.8, )"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "[9.0.4, )"
           }
         },
         "imports": [
