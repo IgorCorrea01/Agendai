@@ -1,6 +1,6 @@
 ﻿namespace Agendai.Domain.Entities
 {
-    public abstract class Agendamento : Shared.Entities.BaseEntity
+    public class Agendamento : Shared.Entities.BaseEntity
     {
         public Guid AgendamentoId { get; set; }
         public Guid ServicoId { get; set; }

@@ -14,7 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Agendai.Application\Agendai.Application.csproj" />
     <ProjectReference Include="..\Agendai.Domain\Agendai.Domain.csproj" />
-    <ProjectReference Include="..\Agendai.Infrastructure\Agendai.Infra.Data.csproj" />
+    <ProjectReference Include="..\Agendai.Infra.Data\Agendai.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

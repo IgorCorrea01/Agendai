@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Agendai.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46e059b8979405e35c7bc08ef13f54c8fd82cf35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b82452c4063de4c8751cda7b1d86283cd7096e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Agendai.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Agendai.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
