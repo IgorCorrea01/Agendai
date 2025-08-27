@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Agendai.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95b82452c4063de4c8751cda7b1d86283cd7096e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3726a8360102b99f232be3f4f81602e0a11d3e47")]
 [assembly: System.Reflection.AssemblyProductAttribute("Agendai.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Agendai.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

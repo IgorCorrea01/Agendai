@@ -1,3 +1,4 @@
+using Agendai.Application.Extensions.Mappings;
 using Agendai.Infra.Data.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,8 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddAutoMapper(typeof(MappingDTOs));
 
 var app = builder.Build();
 

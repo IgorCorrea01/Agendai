@@ -1,3 +1,87 @@
-.vs/
+# Build results
 bin/
 obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Arquivos de usuário do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Configurações locais do VS
+.vs/
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+*.pdb
+*.cache
+*.pid
+*.svclog
+*.scc
+
+# Backup e histórico
+*.bak
+*.backup
+*.old
+*.orig
+
+# Arquivos de pacotes
+*.nupkg
+*.snupkg
+# Diretórios de pacotes locais
+packages/
+.nuget/
+*.nuspec
+*.psmdcp
+
+# Configs que não devem ir pro git
+launchSettings.json
+
+# Rider / JetBrains IDE
+.idea/
+*.sln.iml
+
+# Test results
+TestResult*/
+*.TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Docker
+docker-compose.override.yml
+
+# Arquivos de publish
+publish/
+*.pubxml
+*.publishproj
+
+# Arquivos de lock gerados
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos do estilo do MSBuild
+*.tlog
+*.lastbuildstate
+
+# Node.js (caso use frontend junto)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# MacOS e Linux
+.DS_Store
+Thumbs.db

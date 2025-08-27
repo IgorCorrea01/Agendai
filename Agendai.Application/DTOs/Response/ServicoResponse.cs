@@ -5,6 +5,5 @@
         string Nome,
         decimal Preco,
         TimeSpan duracao,
-        Guid Estabelecimento
-        );
+        EstabelecimentoResponse Estabelecimento);
 }
