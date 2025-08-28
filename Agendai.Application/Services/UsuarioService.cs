@@ -23,13 +23,11 @@ namespace Agendai.Application.Services
         public async Task<UsuarioResponse> LoginAsync(LoginRequest login)
         {
             var usuario = await _usuarioRepository.GetByEmailAsync(login.Email);
-            if (usuario == null)
-                throw new Exception("Usuário não encontrado.");
-            if (usuario == null)
+
+            if (usuario == null || !PasswordHash.VerifyPassword(login.Senha, usuario.SenhaHash))
                 throw new Exception("Usuário ou senha inválidos.");
 
-            // FAZER O JWT E RETORNAR JUNTAMENTE DO USUARIO
-            return usuario.Map();
+            return _mapper.Map<UsuarioResponse>(usuario);
         }
 
         public async Task AddAsync(RegistroRequest usuarioRequest)
@@ -39,7 +37,8 @@ namespace Agendai.Application.Services
                 throw new Exception("Usuário já cadastrado com este e-mail.");
 
             var usuario = _mapper.Map<Usuario>(usuarioRequest);
-            //usuario.AtualizarSenha(PasswordHash.CryptPassword(usuarioRequest.Senha));
+            usuario.AtualizarSenha(PasswordHash.CryptPassword(usuarioRequest.SenhaHash));
+
             await _usuarioRepository.AddAsync(usuario);
         }
 
@@ -55,7 +54,7 @@ namespace Agendai.Application.Services
         public async Task<IEnumerable<UsuarioResponse>> GetAllAsync()
         {
             var users = await _usuarioRepository.GetAllAsync();
-            return users.Select(user => user.Map());
+            return _mapper.Map<IEnumerable<UsuarioResponse>>(users);
         }
 
         public async Task<UsuarioResponse> GetByEmailAsync(string email)
@@ -64,7 +63,7 @@ namespace Agendai.Application.Services
             if (usuario == null)
                 throw new Exception("Usuário não encontrado.");
 
-            return usuario.Map();
+            return _mapper.Map<UsuarioResponse>(usuario);
         }
 
         public async Task<UsuarioResponse> GetByIdAsync(Guid id)
@@ -73,7 +72,7 @@ namespace Agendai.Application.Services
             if (usuario == null)
                 throw new Exception("Usuário não encontrado.");
 
-            return usuario.Map();
+            return _mapper.Map<UsuarioResponse>(usuario);
         }
 
         public async Task UpdateAsync(RegistroRequest usuarioRequest)
@@ -88,8 +87,8 @@ namespace Agendai.Application.Services
             if (!string.Equals(existente.Email, usuarioRequest.Email, StringComparison.OrdinalIgnoreCase))
                 existente.AlterarEmail(usuarioRequest.Email);
 
-            if (!PasswordHash.VerifyPassword(usuarioRequest.Senha, existente.Senha))
-                existente.AtualizarSenha(PasswordHash.CryptPassword(usuarioRequest.Senha));
+            if (!PasswordHash.VerifyPassword(usuarioRequest.SenhaHash, existente.SenhaHash))
+                existente.AtualizarSenha(PasswordHash.CryptPassword(usuarioRequest.SenhaHash));
 
             await _usuarioRepository.UpdateAsync(existente);
         }

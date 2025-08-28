@@ -146,3 +146,6 @@ C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai.API\bin\Deb
 C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai.API\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai.API\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\BMI 01\Desktop\Informações Gerais\Treinos\Agendai\Agendai.API\bin\Debug\net9.0\BCrypt.Net-Next.dll
