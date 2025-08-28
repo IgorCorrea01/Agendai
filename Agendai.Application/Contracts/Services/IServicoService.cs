@@ -9,7 +9,7 @@ namespace Agendai.Application.Contracts.Services
         Task<ServicoResponse> GetByNameAsync(string servico);
         Task<IEnumerable<ServicoResponse>> GetAllAsync();
         Task AddAsync(ServicoRequest servico);
-        Task UpdateAsync(ServicoRequest servico);
+        Task UpdateAsync(Guid id, ServicoRequest servico);
         Task DeleteAsync(Guid servicoId);
     }
 }

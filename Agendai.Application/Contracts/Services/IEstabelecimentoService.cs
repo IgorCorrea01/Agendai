@@ -6,7 +6,7 @@ namespace Agendai.Application.Contracts.Services
     {
         Task<EstabelecimentoRequest> GetByIdAsync(Guid estabelecimentoId);
         Task AddAsync(EstabelecimentoRequest estabelecimento);
-        Task UpdateAsync(EstabelecimentoRequest estabelecimento);
+        Task UpdateAsync(Guid id, EstabelecimentoRequest estabelecimento);
         Task DeleteAsync(Guid estabelecimentoId);
     }
 }

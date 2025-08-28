@@ -3,8 +3,6 @@
 namespace Agendai.Application.DTOs.Request
 {
     public sealed record EstabelecimentoRequest(
-        [Required(ErrorMessage = "O Id do Estabelecimento é obrigatório")]
-        Guid EstabelecimentoId,
         [Required(ErrorMessage = "O Nome do Estabelecimento é obrigatório")]
         [StringLength(50, ErrorMessage = "O Nome deve ter no máximo 50 caracteres")]
         string Nome,

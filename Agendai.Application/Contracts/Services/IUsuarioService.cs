@@ -10,7 +10,7 @@ namespace Agendai.Application.Contracts.Services
         Task<UsuarioResponse> GetByIdAsync(Guid id);
         Task<IEnumerable<UsuarioResponse>> GetAllAsync();
         Task AddAsync(RegistroRequest usuario);
-        Task UpdateAsync(RegistroRequest usuario);
+        Task UpdateAsync(Guid id, RegistroRequest usuario);
         Task DeleteAsync(Guid id);
     }
 }

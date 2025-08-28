@@ -48,9 +48,9 @@ namespace Agendai.Application.Services
             await _servicoRepository.AddAsync(servico);
         }
 
-        public async Task UpdateAsync(ServicoRequest servicoRequest)
+        public async Task UpdateAsync(Guid id, ServicoRequest servicoRequest)
         {
-            var servico = await _servicoRepository.GetByIdAsync(servicoRequest.ServicoId);
+            var servico = await _servicoRepository.GetByIdAsync(id);
             if (servico == null)
                 throw new Exception("Serviço não encontrado.");
 

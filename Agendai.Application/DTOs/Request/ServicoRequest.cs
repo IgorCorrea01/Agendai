@@ -3,8 +3,6 @@
 namespace Agendai.Application.DTOs.Request
 {
     public sealed record ServicoRequest(
-        [Required(ErrorMessage = "O Id do Serviço é obrigatório")]
-        Guid ServicoId,
         [Required(ErrorMessage = "O Nome do Serviço é obrigatório")]
         string Nome,
         [Required(ErrorMessage = "O Preço do Serviço é obrigatório")]

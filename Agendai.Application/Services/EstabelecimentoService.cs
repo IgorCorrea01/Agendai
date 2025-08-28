@@ -32,9 +32,9 @@ namespace Agendai.Application.Services
             await _estabelecimentoRepository.AddAsync(estabelecimento);
         }
 
-        public async Task UpdateAsync(EstabelecimentoRequest estabelecimentoRequest)
+        public async Task UpdateAsync(Guid id, EstabelecimentoRequest estabelecimentoRequest)
         {
-            var estabelecimento = await _estabelecimentoRepository.GetByIdAsync(estabelecimentoRequest.EstabelecimentoId);
+            var estabelecimento = await _estabelecimentoRepository.GetByIdAsync(id);
             if (estabelecimento == null)
                 throw new Exception("Estabelecimento não encontrado.");
 

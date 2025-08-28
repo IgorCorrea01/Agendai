@@ -8,7 +8,7 @@ namespace Agendai.Application.Contracts.Services
         Task<AgendamentoResponse> GetByIdAsync(Guid agendamentoId);
         Task<IEnumerable<AgendamentoResponse>> GetAllAsync();
         Task AddAsync(AgendamentoRequest agendamento);
-        Task UpdateAsync(AgendamentoRequest agendamento);
+        Task UpdateAsync(Guid id, AgendamentoRequest agendamento);
         Task DeleteAsync(Guid agendamentoId);
     }
 }

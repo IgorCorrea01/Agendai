@@ -39,9 +39,9 @@ namespace Agendai.Application.Services
             await _agendamentoRepository.AddAsync(agendamento);
         }
 
-        public async Task UpdateAsync(AgendamentoRequest agendamentoRequest)
+        public async Task UpdateAsync(Guid id, AgendamentoRequest agendamentoRequest)
         {
-            var agendamento = await _agendamentoRepository.GetByIdAsync(agendamentoRequest.AgendamentoId);
+            var agendamento = await _agendamentoRepository.GetByIdAsync(id);
             if (agendamento == null)
                 throw new Exception("Agendamento não encontrado.");
 

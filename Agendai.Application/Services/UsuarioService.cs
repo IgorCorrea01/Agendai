@@ -75,9 +75,9 @@ namespace Agendai.Application.Services
             return _mapper.Map<UsuarioResponse>(usuario);
         }
 
-        public async Task UpdateAsync(RegistroRequest usuarioRequest)
+        public async Task UpdateAsync(Guid id, RegistroRequest usuarioRequest)
         {
-            var existente = await _usuarioRepository.GetByEmailAsync(usuarioRequest.Email);
+            var existente = await _usuarioRepository.GetByIdAsync(id);
             if (existente == null)
                 throw new Exception("Usuário não encontrado.");
 
