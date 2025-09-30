@@ -1,4 +1,5 @@
-﻿using Agendai.Application.DTOs.Request;
+﻿using Agendai.Application.Contracts.Services;
+using Agendai.Application.DTOs.Request;
 using Agendai.Application.DTOs.Response;
 using Agendai.Domain.Entities;
 using Agendai.Domain.Repositories;
@@ -6,7 +7,7 @@ using AutoMapper;
 
 namespace Agendai.Application.Services
 {
-    public sealed class EstabelecimentoService
+    public sealed class EstabelecimentoService : IEstabelecimentoService
     {
         private readonly IEstabelecimentoRepository _estabelecimentoRepository;
         private readonly IMapper _mapper;

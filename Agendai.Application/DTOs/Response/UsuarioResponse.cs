@@ -4,5 +4,5 @@
         Guid UsuarioId,
         string Nome,
         string Email,
-        int Role);
+        string Role);
 }

@@ -33,6 +33,7 @@ namespace Agendai.Application.Services
         public async Task AddAsync(RegistroRequest usuarioRequest)
         {
             var existente = await _usuarioRepository.GetByEmailAsync(usuarioRequest.Email);
+
             if (existente != null)
                 throw new Exception("Usuário já cadastrado com este e-mail.");
 

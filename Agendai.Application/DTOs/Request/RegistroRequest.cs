@@ -12,5 +12,5 @@ namespace Agendai.Application.DTOs.Request
         [Required(ErrorMessage = "A senha é obrigatória.")]
         [CustomValidation(typeof(PasswordValidation), nameof(PasswordValidation.PasswordValidate))]
         string SenhaHash,
-        string Role = "Usuario");
+        string Role);
 }

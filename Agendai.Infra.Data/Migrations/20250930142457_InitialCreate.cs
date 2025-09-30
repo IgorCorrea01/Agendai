@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Agendai.Infra.Data.Persistence.Migrations
+namespace Agendai.Infra.Data.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

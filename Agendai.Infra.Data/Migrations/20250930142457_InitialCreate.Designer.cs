@@ -9,10 +9,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Agendai.Infra.Data.Persistence.Migrations
+namespace Agendai.Infra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250815140622_InitialCreate")]
+    [Migration("20250930142457_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
